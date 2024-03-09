@@ -7,71 +7,74 @@
     <title>Girasoles</title>
     <link rel="shortcut icon" href="./imagenes/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="stiles.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body>
-    <header>
-        <nav class="navbar">
-            <div>
-                <img src="./imagenes/LOGO.jpg" alt="Logo" width="300" height="90"
-                    class="d-inline-block align-text-top ms-4 mt-2">
-            </div>
-            <nav class="navbar navbar-expand-lg bg-body-secundary">
+<body class="d-flex flex-column">
+    <header class="h-50">
+        <div class="d-flex justify-content-center flex-sm-column align-items-center mt-5">
+            <img src="./imagenes/Logo.png" alt="logo Girasoles" class="img-fluid w-50 h-25">
+        </div>
+    </header>
+    <main class="d-flex flex-column h-50 align-items-center flex-sm-center justify-content-center ">
+
+        <div class="d-flex   justify-content-center me-5 align-items-sm-center">
+            <h2 class="madimi-one-regular display-2 fs-2 justify-content-sm-center bg-danger-subtle ">MOÑOS CREADOS
+                ESPECIALMENTE PARA LAS PRINCESAS</h2>
+        </div>
+        <div class="d-flex align-self-end flex-sm-row me-5">
+            <nav class="navbar navbar-expand-lg text-white fs-2">
                 <div class="container-fluid">
+                    <a class="navbar-brand fs-2 text-danger madimi-one-regular" href="#">Principal</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ">
-                            <li class="nav-item">
-                                <a class="nav-link text-black" href="#">PRINCIPAL</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-black" href="#">BOUTIQUE</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-black" href="#">BALACAS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-black" href="#">ESPECIAL</a>
-                            </li>
-                        </ul>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link text-danger madimi-one-regular" aria-current="page"
+                                href="./balacas.html">Balacas</a>
+                            <a class="nav-link text-danger madimi-one-regular" href="#">Boutique</a>
+                            <a class="nav-link text-danger madimi-one-regular" href="#">Promociones</a>
+                        </div>
                     </div>
-
-                    <div class="container-fluid bg-body-tertiary">
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Buscar</button>
-                        </form>
-                    </div>
-
                 </div>
             </nav>
-
-        </nav>
-
-    </header>
-    <main>
-        <section class="d-flex justify-content-center">
-            <img src="./imagenes/arcoiris-azul.jpg" alt="" />
-            <img src="./imagenes/balaca-azul.jpg" alt="" />
-            <img src="./imagenes/azul.jpg" alt="" />
-            <img src="./imagenes/b-blanco.jpg" alt="" />
-            <img src="./imagenes/boutique-pequeño.jpg" alt="" />
-            <img src="./imagenes/elefante.jpg" alt="" />
-            <img src="./imagenes/oso.jpg" alt="" />
-            <img src="./imagenes/letras.jpg" alt="" />
-            <img src="./imagenes/vaquitas.jpg" alt="" />
-            <img src="./imagenes/blaca-amor1.jpg" alt="" />
-            <img src="./imagenes/arcoiris.jpg" alt="" />
-          </section>
+        </div>
     </main>
+    <footer class="h-25 d-flex justify-content-center align-items-center flex-sm-column">
+        <div class=" d-flex redes col-sm-12  ">
+            <img class=" sociales m-3 mb-3" src="./imagenes/whatsapp.png" alt="" srcset="">
+            <img class=" sociales m-3 mb-3" src="./imagenes/facebook.png" alt="" srcset="">
+            <img class=" sociales m-3 mb-3" src="./imagenes/instagram.png" alt="" srcset="">
+        </div>
+        <div class=" d-flex align-items-center justify-content-end col-sm-12 ">
+            <span class="me-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-c-circle" viewBox="0 0 16 16">
+                    <path
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512" />
+                </svg> Neymar Mendoza </span>
 
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
 </body>
 
 </html>

@@ -1,5 +1,50 @@
-*{ }
-section {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('imagenes/arcoiris-promo.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  opacity: 1.0;
+  text-align: center;
+  background-repeat: no-repeat;
+  
+  color: white;
+}
+
+.sociales {
+  height: 4rem;
+  width: 4rem;
+  
+}
+.redes img:hover{
+  opacity: 0.3;
+}
+h2{
+  color:blue;
+}
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+/* header{
+  max-height: 50vh;
+}
+main{
+  max-height: 40vh;
+}
+footer{
+  max-height: 10vh;
+} */
+
+/* section {
     display: flex;
     width: auto;
     height: 30vh;
@@ -19,4 +64,4 @@ section {
     position: top center;
     opacity: 1;
     filter: contrast(120%);
-  }
+  } */
