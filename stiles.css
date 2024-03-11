@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body{
+#body1{
   background-image: url('imagenes/arcoiris-promo.jpg');
   background-size: cover;
   background-attachment: fixed;
@@ -16,7 +16,10 @@ body{
   
   color: white;
 }
-
+.imagencarrusel {
+  max-height: 60vh;
+  width: 100vw;
+}
 .sociales {
   height: 4rem;
   width: 4rem;
@@ -34,6 +37,13 @@ h2{
   font-style: normal;
   
 }
+.playpen-sans{
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 /* header{
   max-height: 50vh;
 }
